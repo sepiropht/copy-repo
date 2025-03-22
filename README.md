@@ -1,4 +1,4 @@
-# Directory Content Copier
+# Copy repo 
 
 A bash utility script that recursively copies file paths and their contents from a specified directory to the clipboard.
 
@@ -20,7 +20,7 @@ This script requires one of the following clipboard utilities:
 
 ## Installation
 
-Clone the repo 
+Clone the repo then
 
 ```bash
 chmod +x script.sh
@@ -28,13 +28,15 @@ chmod +x script.sh
 
 ## Usage 
 
-```bash
+```
 ./script.sh <directory_path>
 ```
 
 ## Output Format
+
 The script formats the clipboard content as follows:
-```bash
+
+```
 === File: path/to/file1.txt ===
 [Contents of file1.txt here]
 
@@ -45,6 +47,7 @@ The script formats the clipboard content as follows:
 
 === End: path/to/file2.js ===
 ```
+
 
 ## Features
 
