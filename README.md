@@ -28,15 +28,15 @@ chmod +x script.sh
 
 ## Usage 
 
-```
+```bash
 ./script.sh <directory_path>
 ```
 
-## Output Format
+## Output Format
 
 The script formats the clipboard content as follows:
 
-```
+```bash
 === File: path/to/file1.txt ===
 [Contents of file1.txt here]
 
@@ -49,7 +49,7 @@ The script formats the clipboard content as follows:
 ```
 
 
-## Features
+## Features
 
 - Handles both text and binary files (binary files are marked but contents not copied)
 - Works cross-platform (macOS and Linux)
